@@ -20,7 +20,9 @@ namespace StorageManagement
 
         public Food(string name, double price, int bestBefore)
         {
-            
+            Name = name;
+            Price = price;
+            BestBefore = bestBefore;
         }
     }
 }

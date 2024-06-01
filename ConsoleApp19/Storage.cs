@@ -8,7 +8,7 @@ namespace StorageManagement
 {
     internal class Storage
     {
-        private List<IProduct> Products { get; set; }
+        private List<IProduct> Products { get; set; } = new List<IProduct>();
 
 
         public void AddProduct(IProduct product)
